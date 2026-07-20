@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+        
+        <!-- Header -->
+
+        <header class="header">
+          <a href="#home" class="logo"> 
+            Kalpesh <span>Vibhute</span>
+          </a>
+
+          <i class="bx bx-menu" id="menu-icon" ></i>
+          <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </nav>
+
+          <button class="gradient-btn" > <a href="#contact">Contact Me</a> </button>
+        </header>
+
+        <!-- Home -->
+
+        <section class="home" id="home">
+          <div class="home-content">
+            <h1>Hi, it's <span>Kalpesh</span></h1>
+            <h3>
+              I am a <span>Full Stack Developer</span>
+            </h3>
+            <p>Passionate Full Stack Developer specializing in the MERN stack. I build responsive, user-friendly web applications and enjoy turning ideas into real-world digital solutions. Currently seeking internship and entry-level software development opportunities.</p>
+
+            <div class="social-icons">
+              <a href="#">
+                <i class="bx bxl-github"></i> 
+              </a>
+              <a href="#">
+                <i class="bx bxl-linkedin-square"></i> 
+              </a>
+              <a href="#">
+                <i class="bx bxl-instagram-alt"></i> 
+              </a>
+              <a href="#">
+                <i class="bx bxl-twitter"></i> 
+              </a>
+           </div>
+
+           <div class="btn-group">
+            <a href="#contact" class="btn">Hire</a>
+            <a href="#contact" class="btn">Contact</a>
+           </div>
+          </div>
+
+          <div class="home-img">
+            <img src="image.jpg" alt="">
+          </div>
+        </section>
+
+        <!-- About -->
+
+        <section class="about" id="about">
+
+          <div class="about-img">
+            <img src="image.jpg" alt="">
+          </div>
+
+          <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>
+Hello! I'm Kalpesh Vibhute, an aspiring Full Stack Developer with a passion for building modern, responsive, and user-friendly web applications. I specialize in the MERN stack and enjoy turning ideas into functional, real-world projects.
+
+I'm constantly learning new technologies, improving my problem-solving skills, and expanding my knowledge of modern web development. My goal is to join a team where I can contribute, learn from experienced developers, and grow into a skilled software engineer.
+</p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+
+        </section>
+
+        <!-- services -->
+
+        <section class="services" id="services">
+
+          <h2 class="heading">Services</h2>
+
+          <div class="services-container"> 
+            <div class="service-box">
+              <div class="service-info">
+                <i class="bx bxl-figma"></i>
+                <h4>UI / UX Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae non aliquam, eaque ipsam natus perspiciatis et alias? Facilis quaerat placeat ipsam possimus ex velit numquam similique sed quos qui! Dolorum, non maxime.</p>
+              </div>
+            </div>
+
+            <div class="service-box">
+              <div class="service-info">
+                <i class="bx bx-code"></i>
+                <h4>Frontend Developer</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae non aliquam, eaque ipsam natus perspiciatis et alias? Facilis quaerat placeat ipsam possimus ex velit numquam similique sed quos qui! Dolorum, non maxime.</p>
+              </div>
+            </div>
+
+            <div class="service-box">
+              <div class="service-info">
+                <i class="bx bx-code-alt"></i>
+                <h4>Backend Developer</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae non aliquam, eaque ipsam natus perspiciatis et alias? Facilis quaerat placeat ipsam possimus ex velit numquam similique sed quos qui! Dolorum, non maxime.</p>
+              </div>
+            </div>
+          </div>
+
+        </section>
+        <!-- Projects -->
+        <section class="projects" id="projects">
+          <h2 class="heading">Projects</h2>
+
+          <div class="project-box">
+            <div class="project-card">
+              <img src="project1.png" alt="">
+              <h3>Project 1</h3>
+              <p>Portfolio website.</p>
+              <div class="btn">Review Project</div>
+            </div>
+
+            <div class="project-card">
+              <img src="project2.png" alt="">
+              <h3>Project 2</h3>
+              <p>bookstore Management.</p>
+              <div class="btn">Review Project</div>
+            </div>
+            <div class="project-card">
+              <img src="project3.png" alt="">
+              <h3>Project 3</h3>
+              <p>Real Time chat App.</p>
+              <div class="btn">Review Project</div>
+            </div>
+            
+          </div>
+
+        </section>
+
+        <!-- Contact -->
+
+        <section class="contact" id="contact">
+          <h2 class="heading">Contact <span>Me</span></h2>
+
+          <form action="https://formspree.io/f/xzdngell" method="POST">
+            <div class="input-group">
+              <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name">
+                <input type="email" name="email" placeholder="Email">
+              </div>
+
+              <div class="input-box">
+                <input type="number" name="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+              </div>
+            </div>
+            <div class="input-group-2">
+              <textarea name="message" id="" placeholder="Your Message" cols="30" rows="5"></textarea>
+              <input type="submit" value="Send Message" class="btn">
+
+              <h3>Mob : 93278-43878 </h3>
+              <h3><a href="mailto:kalpeshvibhute13@gmail.com">Email : kalpesvibhute13@gmail.com</a></h3>
+            </div>
+          </form>
+
+        </section>
+
+        <footer class="footer">
+          <div class="social-icons">
+              <a href="#">
+                <i class="bx bxl-github"></i> 
+              </a>
+              <a href="#">
+                <i class="bx bxl-linkedin-square"></i> 
+              </a>
+              <a href="#">
+                <i class="bx bxl-instagram-alt"></i> 
+              </a>
+              <a href="#">
+                <i class="bx bxl-twitter"></i> 
+              </a>
+           </div>
+
+           <ul class="list">
+            <li>
+              <a href="#">FAQ</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+
+           </ul>
+
+           <p class="copyright">
+             @ Kalpesh Vibhute | All rights Reserved
+           </p>
+        </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html> 
